@@ -6,7 +6,7 @@ export const heroConfig: HeroConfig = {
     second: "for Creating, Connecting, and Growing Online",
   },
   subtitle:
-    "This is a demo directory website built with Mkdirs",
+    "Discover AI tools and creative software for making videos, designing visuals, building apps, and growing your online projects.",
   label: {
     text: "Introducing Mkdirs on",
     href: "https://x.com/javayhu",
