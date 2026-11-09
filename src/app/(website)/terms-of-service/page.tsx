@@ -20,7 +20,6 @@ export default function TermsOfServicePage() {
     <h2 className="mt-8 text-2xl font-semibold">Changes to these terms</h2>
     <p>Updated terms will be posted on this page. Continued use after an update may be subject to the revised terms as permitted by applicable law.</p>
     <h2 className="mt-8 text-2xl font-semibold">Contact</h2>
-    <p>Questions about this page can be sent to <a className="underline" href="mailto:contact@chattoolkit.com">contact@chattoolkit.com</a>. This email address is pending activation.</p>
-    <p className="mt-8 text-sm text-muted-foreground">This is an initial terms draft. Contact information, applicable jurisdiction, and enabled features must be confirmed before final publication.</p>
+    <p>Questions about this page can be sent to <a className="underline" href="mailto:chattoolkit@trendelagua.com">chattoolkit@trendelagua.com</a>.</p>
   </main>;
 }
