@@ -18,7 +18,6 @@ export default function PrivacyPolicyPage() {
     <h2 className="mt-8 text-2xl font-semibold">Updates</h2>
     <p>This policy may change as Chat Toolkit's features and service providers change. Updates will be posted on this page.</p>
     <h2 className="mt-8 text-2xl font-semibold">Contact</h2>
-    <p>Questions about this page can be sent to <a className="underline" href="mailto:contact@chattoolkit.com">contact@chattoolkit.com</a>. This email address is pending activation.</p>
-    <p className="mt-8 text-sm text-muted-foreground">This is an initial policy draft. Contact information and the site's actual data-handling practices must be confirmed before final publication.</p>
+    <p>Questions about this page can be sent to <a className="underline" href="mailto:chattoolkit@trendelagua.com">chattoolkit@trendelagua.com</a>.</p>
   </main>;
 }
