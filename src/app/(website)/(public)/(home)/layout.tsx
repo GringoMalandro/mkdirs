@@ -1,7 +1,5 @@
 import Container from "@/components/container";
-import { HomeCategoryList } from "@/components/home/home-category-list";
-import HomeHero from "@/components/home/home-hero";
-import { HomeSearchFilter } from "@/components/home/home-search-filter";
+import HomeHero from "@/components/home2/home2-hero";
 import { NewsletterCard } from "@/components/newsletter/newsletter-card";
 
 export default function HomeLayout({
@@ -10,24 +8,7 @@ export default function HomeLayout({
   return (
     <Container className="mt-12 mb-16 flex flex-col gap-12">
       <HomeHero />
-
-      <div className="flex flex-col md:flex-row gap-8">
-        {/* left sidebar: category list */}
-        <div className="hidden md:block w-[250px] flex-shrink-0">
-          <div className="sticky top-24">
-            <HomeCategoryList urlPrefix="/" />
-          </div>
-        </div>
-
-        {/* right content: item grid */}
-        <div className="flex-1">
-          <div className="flex flex-col gap-8">
-            <HomeSearchFilter urlPrefix="/" />
-            {children}
-          </div>
-        </div>
-      </div>
-
+      {children}
       <NewsletterCard />
     </Container>
   );
