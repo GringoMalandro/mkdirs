@@ -5,14 +5,15 @@ const SITE_URL = process.env.NEXT_PUBLIC_APP_URL;
 export const siteConfig: SiteConfig = {
   name: "ChatToolkit",
   tagline:
-    "Useful tools, resources, and ideas for creators and businesses.",
+    "Discover AI and productivity tools, digital resources, and creative solutions to make work and everyday life easier.",
   description:
-    "ChatToolkit brings useful tools, resources, and ideas together to help creators and businesses work smarter and grow their online presence.",
+    "Discover AI and productivity tools that simplify your work and everyday life. Explore powerful applications and digital solutions designed to save time, boost creativity, and help you get more done.",
   keywords: [
     "ChatToolkit",
-    "creator tools",
-    "business resources",
-    "online presence",
+    "AI tools",
+    "productivity tools",
+    "digital tools",
+    "creative solutions",
   ],
   author: "ChatToolkit",
   url: SITE_URL,
@@ -21,16 +22,15 @@ export const siteConfig: SiteConfig = {
   // logoDark: "/logo-dark.png",
   // please increase the version number when you update the image
   image: `${SITE_URL}/og.png?v=1`,
-  mail: "support@mkdirs.com",
+  mail: "contact@chattoolkit.com",
   utm: {
-    source: "mkdirs.com",
+    source: "chattoolkit.com",
     medium: "referral",
     campaign: "navigation",
   },
   links: {
-    // leave it blank if you don't want to show the link (don't delete)
-    twitter: "https://x.com/MkdirsHQ",
-    github: "https://github.com/MkdirsHQ",
-    youtube: "https://www.youtube.com/@MkdirsHQ",
+    twitter: "",
+    github: "",
+    youtube: "",
   },
 };
