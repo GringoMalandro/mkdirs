@@ -65,7 +65,7 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
       <div className="border-t py-4">
         <Container className="flex items-center justify-between">
           <span className="text-muted-foreground text-sm">
-            Copyright &copy; 2026 ChatToolkit. All Rights Reserved.
+            Copyright &copy; 2026 ChatToolkit · Tren Del Agua Inc. All Rights Reserved.
           </span>
           <div className="flex items-center gap-3">
             <ModeToggle />
