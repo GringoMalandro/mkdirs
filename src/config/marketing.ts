@@ -8,6 +8,5 @@ export const marketingConfig: MarketingConfig = {
     { title: "Tag", href: "/tag", icon: "tag" },
     { title: "Blog", href: "/blog", icon: "blog" },
     { title: "Submit", href: "/submit", icon: "submit" },
-    { title: "Studio", href: "/studio", icon: "studio", external: true },
   ],
 };
