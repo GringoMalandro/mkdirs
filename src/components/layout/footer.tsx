@@ -7,7 +7,6 @@ import Link from "next/link";
 import type * as React from "react";
 import Container from "../container";
 import { Logo } from "../logo";
-import BuiltWithButton from "../shared/built-with-button";
 
 export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
@@ -72,7 +71,6 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
               )}
             </div>
 
-            <BuiltWithButton />
           </div>
         </div>
 
@@ -107,7 +105,7 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
       <div className="border-t py-4">
         <Container className="flex items-center justify-between">
           <span className="text-muted-foreground text-sm">
-            Copyright &copy; {new Date().getFullYear()} All Rights Reserved.
+            Copyright &copy; 2026 ChatToolkit. All Rights Reserved.
           </span>
 
           <div className="flex items-center gap-3">
