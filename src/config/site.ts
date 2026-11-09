@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
   ],
   author: "ChatToolkit",
   url: SITE_URL,
-  logo: "/logo.png",
+  logo: "/chattoolkit-logo.svg",
   // set the logoDark if you have put the logo-dark.png in the public folder
   // logoDark: "/logo-dark.png",
   // please increase the version number when you update the image
