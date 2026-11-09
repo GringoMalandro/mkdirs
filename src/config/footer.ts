@@ -30,8 +30,8 @@ export const footerConfig: FooterConfig = {
       title: "Company",
       items: [
         { title: "About Us", href: "/about" },
-        { title: "Privacy Policy", href: "/privacy" },
-        { title: "Terms of Service", href: "/terms" },
+        { title: "Privacy Policy", href: "/privacy-policy" },
+        { title: "Terms of Service", href: "/terms-of-service" },
         { title: "Sitemap", href: "/sitemap.xml" },
       ],
     },
