@@ -3,25 +3,18 @@ import type { SiteConfig } from "@/types";
 const SITE_URL = process.env.NEXT_PUBLIC_APP_URL;
 
 export const siteConfig: SiteConfig = {
-  name: "Directory",
+  name: "ChatToolkit",
   tagline:
-    "This is a demo site for Mkdirs, the best directory website template",
+    "Useful tools, resources, and ideas for creators and businesses.",
   description:
-    "This is a demo site for Mkdirs template. Mkdirs is the ultimate directory website template. With Mkdirs, you can build any trending and profitable directory website in minutes, packed with Listings, Newsletter, Payment, CMS, Blog, Authentication, SEO, Themes and more",
+    "ChatToolkit brings useful tools, resources, and ideas together to help creators and businesses work smarter and grow their online presence.",
   keywords: [
-    "Directory",
-    "Template",
-    "Boilerplate",
-    "Next.js",
-    "Auth.js",
-    "Tailwindcss",
-    "Shadcn/ui",
-    "Resend",
-    "Sanity",
-    "Stripe",
-    "Vercel",
+    "ChatToolkit",
+    "creator tools",
+    "business resources",
+    "online presence",
   ],
-  author: "Mkdirs",
+  author: "ChatToolkit",
   url: SITE_URL,
   logo: "/logo.png",
   // set the logoDark if you have put the logo-dark.png in the public folder
