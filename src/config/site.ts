@@ -22,7 +22,7 @@ export const siteConfig: SiteConfig = {
   // logoDark: "/logo-dark.png",
   // please increase the version number when you update the image
   image: `${SITE_URL}/og.png?v=1`,
-  mail: "contact@chattoolkit.com",
+  mail: "chattoolkit@trendelagua.com",
   utm: {
     source: "chattoolkit.com",
     medium: "referral",
