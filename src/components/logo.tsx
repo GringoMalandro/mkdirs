@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 export function Logo({ className }: { className?: string }) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const logoLight = siteConfig.logo;
+  const logoLight = "/icon.svg";
   const logoDark = siteConfig.logoDark ?? logoLight;
 
   // During server-side rendering and initial client render, always use logoLight
