@@ -10,6 +10,6 @@ export const heroConfig: HeroConfig = {
   label: {
     text: "Smart tools to make your everyday life easier",
     href: "/",
-    icon: "sparkles",
+    icon: "arrowRight",
   },
 };
