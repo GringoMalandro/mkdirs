@@ -8,8 +8,8 @@ export const heroConfig: HeroConfig = {
   subtitle:
     "Discover AI tools and creative software for making videos, designing visuals, building apps, and growing your online projects.",
   label: {
-    text: "Introducing Mkdirs on",
-    href: "https://x.com/javayhu",
-    icon: "twitter",
+    text: "Smart tools to make your everyday life easier",
+    href: "/",
+    icon: "sparkles",
   },
 };
